@@ -35,6 +35,12 @@ const myFn = function(){
     console.log("hello World");
 }
 
-console.log(typeof outsideTemp);
+//return type =>
+console.log(typeof outsideTemp); //object
+
+console.log(typeof heros) //function-object
+console.log(typeof anotherId)
+
+
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
