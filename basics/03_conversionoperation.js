@@ -24,3 +24,17 @@ let num = 43
 let stringNumber = String(num)
 console.log(stringNumber)
 console.log(typeof stringNumber)
+
+
+// ************************************ Operations *********************************
+
+let val = 3
+let negval = -val
+console.log(negval)
+
+console.log(+true)
+console.log(+"")
+
+
+//link to study about these operations
+//https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
