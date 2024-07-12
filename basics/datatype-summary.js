@@ -44,3 +44,29 @@ console.log(typeof anotherId)
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// stack(primitive) , heap(non-primitive)
+
+let myYouTubename = "xyz@google.com"
+
+let anothername = myYouTubename
+anothername = "abc@google.com"
+console.log(anothername)
+console.log(anothername)
+
+
+let userone = {
+    email : "Shaktimaan@gmail.com",
+    age : 50,
+
+}
+usertwo = userone
+usertwo.email = "rose1256@google.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
+/*let usertwo = {
+    name2 : "Tony Stark",
+    age : 18,
+}*/
+
