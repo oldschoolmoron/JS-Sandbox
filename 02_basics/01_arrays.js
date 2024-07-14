@@ -34,7 +34,7 @@ const myarr2 = Arr.splice(1, 4);
 // 'slice' returns a shallow copy of a portion of an array without modifying the original array, while 'splice' modifies the original array by removing or adding elements.
 
 // Array part - 2
-const marvel_heros = ["thor", "Ironman", "spiderman"]
+const marvel_heros = ["thor", "Ironman", "spiderman","Programmer"]
 const dc_heros = ["superman","flash","batman"]
 
 // marvel_heros.push(dc_heros) o/p = [ 'thor', 'Ironman', 'spiderman', [ 'superman', 'flash', 'batman' ] ]
@@ -46,6 +46,7 @@ const Allheros = marvel_heros.concat(dc_heros)
 // console.log(Allheros)
 
 const All_new_heros = [...marvel_heros, ...dc_heros];
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // console.log(All_new_heros)
 
 const anoth_arr = [1, 2 ,3, [4, 5, 6],7 , [8, 9, [10, 11]]]
