@@ -42,7 +42,7 @@ const chai = function() {
  // chai() // output is undefined
 
  const choclate_maggie = () => {
-    let method = "consult to a doctor first";
+    let method = "consult a doctor first";
     console.log(this);
 }
 choclate_maggie(); // output = {} empty object
