@@ -1,6 +1,6 @@
 // for loop 
 
-for (let i = 0; i < 10; i++) { //trl + D is used to select the next occurrence of the current 
+for (let i = 0; i < 10; i++) { //ctrl or cmd + D is used to select the next occurrence of the current 
                                 // selection, which is useful for making multiple changes at once.
 
     const element = i; 
